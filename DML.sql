@@ -1,0 +1,102 @@
+use NTESLE
+
+INSERT INTO Customer VALUES
+('CS001', 'Sensei Ananda', '+6281313131313', 'Villa Bekasi Buruk 1 Bojonegoro 1'),
+('CS002', 'Endru Rudiyono', '+6281414141414', 'Villa Bekasi Buruk 2 Lose Saga 4'),
+('CS003', 'Jordan Antonios', '+6281515151515', 'Villa Bekasi Buruk 2 Granger 11'),
+('CS004', 'Annas Sigit Adityo', '+6281111111111', 'Villa Bekasi Buruk 1 Latin 25'),
+('CS005', 'Joerish Christopel', '+6282222222222', 'Villa Bekasi Buruk 3 Bojonegoro 5'),
+('CS006', 'Antonios Joerish', '+6283333333333', 'Villa Bekasi Buruk 1 Granger 2'),
+('CS007', 'Joerish Jordan Santoso', '+6284444444444', 'Villa Bekasi Buruk 3 Lose Saga 1'),
+('CS008', 'Makmur Setiyo', '+6285555555555', 'Villa Bekasi Buruk 2 Latin 27'),
+('CS009', 'Ardhito Pamungkas', '+6286666666666', 'Villa Bekasi Buruk 3 Bojonegoro 1'),
+('CS010', 'Pradhito Ardhingkas', '+6287777777777', 'Villa Bekasi Buruk 1 Latin 61'),
+('CS011', 'Sensei Rifki', '+6288888888888', 'Villa Bekasi Buruk 2 Granger 5'),
+('CS012', 'Steve Jobs', '+6289999999999', 'Villa Bekasi Buruk 1 Granger 32'),
+('CS013', 'Rob Jobs', '+6281010101010', 'Villa Bekasi Buruk 1 Lose Saga 5'),
+('CS014', 'Bonding Prakoso', '+6281222222221', 'Villa Bekasi Buruk 2 Bojonegoro 1')
+
+INSERT INTO Supplier VALUES
+('SU001', 'Indofruit', '08353895395', 'Bandung Jalan Jaya 5 No. 12'),
+('SU002', 'iWant', '08434378822', 'Jakarta Pusat Jalan Momentum 4'),
+('SU003', 'Chochies', '08493049532', 'Jakarta Selatan Jalan Puri 7'),
+('SU004', 'Gandumn', '08385748534', 'Bekasi Jalan Burik No. 1 Lateen 5'),
+('SU005', 'Selera Saya', '08342349422', 'Bekasi Jalan Cendana 25'),
+('SU006', 'Bimoil', '08439853952', 'Medan Jalan Serang 88'),
+('SU007', 'PeLeN', '08590375302', 'Papua Jalan Nugini 240'),
+('SU008', 'Makmur Jaya', '08135458322', 'California Jalan Soekarno 25'),
+('SU009', 'SiGate', '08182342125', 'Bandung Jalan Kebun Raya 65'),
+('SU010', 'Orekel', '08124842342', 'Bekasi Jalan Jeruk 27')
+
+INSERT INTO Ingredient VALUES
+('IG001', 'Susu', '1500000', '2024-01-11'),
+('IG002', 'Air', '500000', '2024-01-10'),
+('IG003', 'Coklat', '5000000', '2025-06-15'),
+('IG004', 'Gandum', '2500000', '2024-01-08'),
+('IG005', 'Tepung', '1750000', '2024-04-18'),
+('IG006', 'Minyak', '5000000', '2024-12-01'),
+('IG007', 'Telur', '980000', '2024-12-26'),
+('IG008', 'Meises', '500000', '2024-01-08'),
+('IG009', 'Waffer', '1950000', '2024-12-01'),
+('IG010', 'Sugar', '6800000', '2024-12-01'),
+('IG011', 'Kacang', '895000', '2024-12-01'),
+('IG012', 'Sagu', '265800', '2024-12-01'),
+('IG013', 'Biji Kopi', '800000', '2024-12-01'),
+('IG014', 'Ikan', '1500000', '2023-12-01'),
+('IG015', 'Jeruk', '750000', '2024-12-01')
+
+INSERT INTO ProductType VALUES
+('PT001', 'Biscuits'),
+('PT002', 'Milk'),
+('PT003', 'Vitamin'),
+('PT004', 'Pet Food'),
+('PT005', 'Coffee'),
+('PT006', 'Mineral Water'),
+('PT007', 'Noodle'),
+('PT008', 'Cereals'),
+('PT009', 'Frozen Food'),
+('PT010', 'Candy')
+
+INSERT INTO Product VALUES
+('PD001', 'Beeskuat', 'PT001', '6500', '2024-03-01'),
+('PD002', 'Reagale', 'PT001', '5000', '2021-01-06'),
+('PD003', 'Rome', 'PT001', '6250', '2021-04-16'),
+('PD004', 'Fritz Flag', 'PT002', '5500', '2021-04-26'),
+('PD005', 'Malaymilk', 'PT002', '5000', '2024-06-26'),
+('PD006', 'Rampage Milk', 'PT002', '6500', '2022-04-07'),
+('PD007', 'Panda Brand', 'PT002', '8000', '2022-06-20'),
+('PD008', 'Impoosh', 'PT003', '6000', '2023-06-14'),
+('PD009', 'Vitaceemint', 'PT003', '7500', '2021-07-26'),
+('PD010', 'Enervont-Dee', 'PT003', '8500', '2021-11-15'),
+('PD011', 'Boldz', 'PT004', '18000', '2022-04-07'),
+('PD012', 'WhisKun', 'PT004', '22000', '2022-11-01'),
+('PD013', 'Miaw', 'PT004', '20000', '2021-04-21'),
+('PD014', 'Lubak Fhite Coffee', 'PT005', '8000', '2022-06-20'),
+('PD015', 'Kapal Aer', 'PT005', '6500', '2021-11-15'),
+('PD016', 'Akuos', 'PT006', '10000', '2022-02-21'),
+('PD017', 'Le Minta Le', 'PT006', '9500', '2022-11-01'),
+('PD018', 'Malaymie', 'PT007', '5400', '2023-07-18'),
+('PD019', 'Gaenaak', 'PT007', '6500', '2024-12-17'),
+('PD020', 'Naruto', 'PT007', '10000', '2024-06-26'),
+('PD021', 'Groovy Mie', 'PT007', '6500', '2022-06-08'),
+('PD022', 'Kokoh Krans', 'PT008', '15000', '2022-04-07'),
+('PD023', 'Oweo', 'PT008', '15000', '2022-02-03'),
+('PD024', 'Hylos', 'PT008', '95000', '2021-11-15'),
+('PD025', 'Sausej', 'PT009', '15000', '2023-08-04'),
+('PD026', 'Tuna', 'PT009', '25000', '2021-07-26'),
+('PD027', 'Pempek Kapal Selam', 'PT009', '15000', '2023-03-27'),
+('PD028', 'Bakso Ikan', 'PT009', '18000', '2023-03-27'),
+('PD029', 'Yuhee', 'PT010', '5550', '2024-06-26'),
+('PD030', 'Milikkita', 'PT010', '6250', '2023-03-27')
+
+INSERT INTO Staff VALUES
+('ST001', 'Yohanes Kurniawan', 'Male', '08156842593', '1972-12-19', '10000000'),
+('ST002', 'Henkie Ongowarsito', 'Male', '08138569158', '1999-11-14', '6500000'),
+('ST003', 'Yulia Magalenda', 'Female', '08982654868', '1999-07-11', '3500000'),
+('ST004', 'Lifia Yola', 'Female', '08136987562', '1993-10-09', '9500000'),
+('ST005', 'Andreas Raharto Condrobimo', 'Male', '08136963256', '1995-10-29', '6500000'),
+('ST006', 'Cadelina', 'Female', '08987451369', '1998-09-04', '3500000'),
+('ST007', 'Haris Setyabudi', 'Male', '08125985631', '1978-10-05', '10000000'),
+('ST008', 'Angelia', 'Female', '08786582013', '1998-12-19', '4500000'),
+('ST009', 'Hendra Gusmantara', 'Male', '08125984534', '1998-10-19', '4500000'),
+('ST010', 'Yuli', 'Female', '08786935218', '1998-05-19', '5000000')
